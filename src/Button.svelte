@@ -10,7 +10,7 @@
   function handleClick() {
     switch (key) {
       case "=":
-        try {
+       try {
           result = eval(replace(result));
         } catch (e) {
           result = error;
